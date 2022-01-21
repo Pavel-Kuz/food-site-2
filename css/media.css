@@ -5,6 +5,9 @@
     header{
         padding: 1rem 2rem;
     }
+    section{
+        padding: 2rem;
+    }
 }
 @media (max-width: 768px){
         header .icons #menu-bars{
@@ -35,9 +38,16 @@
             width: 90%;
             margin: 0 1rem;
         }
+        .home .home-slider .slide .content h3{
+            font-size: 5;
+        }
 }
 @media (max-width: 450){
     html{
         font-size: 50%;
+    }
+    .dishes .box-container .box img{
+        height: auto;
+        width: 100%;
     }
 }
