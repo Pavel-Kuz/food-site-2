@@ -8,6 +8,10 @@
     section{
         padding: 2rem;
     }
+    .order form .inputBox .input{
+        width: 100%;
+    }
+    
 }
 @media (max-width: 768px){
         header .icons #menu-bars{
@@ -50,4 +54,5 @@
         height: auto;
         width: 100%;
     }
+    
 }
