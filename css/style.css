@@ -85,10 +85,13 @@ header .navbar a {
     color: var(--light-color);
     transition: .5s;
 }
-header .navbar a:hover,
-header .navbar a:active{
+header .navbar a:hover{
     color: #fff;
     background: var(--green);
+}
+header .navbar a.active{
+    background: var(--green);
+    color: #fff;
 }
 header .icons i,
 header .icons a{
